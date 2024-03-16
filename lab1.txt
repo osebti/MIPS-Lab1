@@ -1,0 +1,104 @@
+CMPUT LAB 1 
+
+CMPUT 229 Student Submission License (Version 1.1)
+
+Copyright 2018 student name
+
+Unauthorized redistribution is forbidden in all circumstances. Use of this software without explicit authorization from the author or CMPUT 229 Teaching Staff is prohibited.
+
+This software was produced as a solution for an assignment in the course CMPUT 229 (Computer Organization and Architecture I) at the University of Alberta, Canada. This solution is confidential and remains confidential after it is submitted for grading. The course staff has the right to run plagiarism-detection tools on any code developed under this license, even beyond the duration of the course.
+
+Copying any part of this solution without including this copyright notice is illegal.
+
+If any portion of this software is included in a solution submitted for grading at an educational institution, the submitter will be subject to the sanctions for plagiarism at that institution.
+
+This software cannot be publicly posted under any circumstances, whether by the original student or by a third party. If this software is found in any public website or public repository, the person finding it is kindly requested to immediately report, including the URL or other repository locating information, to the following email address: cmput229@ualberta.ca.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+
+QUESTION 1: 
+The output printed in the console is the following: "Number = 35". (Quotation marks are not part of the console output)
+
+
+QUESTION 2: 
+In Hex: D3
+In Decimal: 211
+
+QUESTION 3: 
+In Hex: 400038
+
+QUESTION 4: 
+The load-word instruction is executed 6 times. It loads the numbers stored in the data variable nums.
+More specifically, it loads the values 20, 34, 52, 86, 19 and 0.
+
+Question 5:
+N => 10010018
+U => 10010019
+M => 1001001A
+B => 1001001B
+E => 1001001C
+R => 1001001D
+
+Question 6:
+
+3344003C is the hexadecimal obtained;
+33 => 3
+44 => D
+00 => NULL
+3C => <
+
+Question 7:
+
+If they are interpreted as a two's complement integer, then it equals a signed decimal number/integer. 
+To compute it we perform the following calculation: 12 + 3x16 + 4x16^4 + 4x16^5 + 3x16^6 + 3x16^7.
+The integer it represents is 860094524.
+
+Question 8: 
+
+
+Directive 1: .word 21, 88, -5, -10    => This directive stores the values 21, 88, -5 and -10, on the word
+                                         boundary (32 bits), in memory (in the data section, in RAM). 
+                                         
+
+
+Directive 2: .byte 10, 'c'    => This directive stores 10 and the character 'c' as bytes (8 bits)
+                                 in memory (in the data section, in RAM).
+
+ 
+Directive 3: .align 2      => This directive aligns the data element that comes after it on the word boundary
+                              (32 bits).
+
+Directive 4: .space 9      => This directive reserves 9 bytes in memory (in the data section, in the RAM); 
+                              this directive is useful for creating arrays or objects. 
+                              
+
+Directive 5: .asciiz "ABCD"   => This directive stores the string "ABCD" in memory (in the data section, in RAM) 
+                                 and adds a null terminator at the end.
+
+
+Directive 6: .ascii "EF"   => This directive stores the string "EF" in memory (in the data section, in RAM) 
+                              but does not add a null terminator at the end.
+
+
+
+Question 9:
+ 
+We would use the following command: "print $s0"
+
+
+Question 10: 
+
+Since the number of integers will only be known at run time, an array is the best data type to use 
+as we can loop over all of its contents (integers) since we know their size and convert each one, 
+until reaching the end of the block, which we can calculate by using the base memory address 
+(start of the array), the number of integers and the size of each integer (4 bytes). 
+Thus, an appropriate control structure is a for-loop, since we will know the number of integers until run time.  
+
+
+
+

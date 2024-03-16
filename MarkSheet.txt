@@ -1,0 +1,53 @@
+		CMPUT 229 Laboratory Assignment #1
+		==================================
+
+Final Mark:       80    /100 MARKS TOTAL
+                =====
+Part 1:         __40___ /40 Questions
+
+Part 2:         __20___ /20 Bugfixes
+
+Part 3:         ___0__ /20 Program
+
+Part 4:		__20___ /20 Program Style
+
+-------------------------------------------------------------------------
+Part 1: Questions
+
+ ___40__ /40
+
+Question 1 __4__ /4 Question 2 ___4_ /4 Question 3 _4___ /4
+
+Question 4 __4__ /4 Question 5 _4___ /4 Question 6 __4__ /4
+
+Question 7 __4__ /4 Question 8 _4___ /4 Question 9 __4__ /4
+
+Question 10 __4__ /4
+
+------------------------------------------------------------------------
+Part 2: Bugfixes
+
+
+ __20___ /20
+
+------------------------------------------------------------------------
+Part 3: Program
+
+ ___0__ /20
+
+4 test cases of main method
+	Test 1 __0__ /5 Test 2 _0___ /5 Test 3 __0__ /5 Test 4 _0___ /5
+      
+------------------------------------------------------------------------
+Part 4: Program Style
+
+ ___20__ /20
+ 
+Some common deductions will include: (5 marks per deduction)
+	No subroutine description
+	No program header
+	No explanation for register usage
+	No block comments
+
+Feedback:
+	The code did not execute because of the range for andi instruction
